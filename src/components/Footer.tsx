@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-6">
             <div>
               <h3 className="text-2xl font-serif font-bold mb-4">
-                Shop Authenticate
+                Shop Authentic
               </h3>
               <p className="text-brand-cream/80 leading-relaxed max-w-md">
                 Crafting timeless bags that blend elegance with functionality.
