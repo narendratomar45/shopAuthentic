@@ -1,9 +1,8 @@
-
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Label } from '@/components/ui/label';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Label } from "@/components/ui/label";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -15,7 +14,8 @@ const Contact = () => {
             Get in Touch
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Have questions about our purses or need assistance? We're here to help you find the perfect piece.
+            Have questions about our purses or need assistance? We're here to
+            help you find the perfect piece.
           </p>
         </div>
 
@@ -23,7 +23,9 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="space-y-6" data-aos="fade-right">
             <div className="bg-gray-50 p-8 rounded-2xl">
-              <h3 className="text-xl font-semibold text-brand-dark mb-6">Send us a Message</h3>
+              <h3 className="text-xl font-semibold text-brand-dark mb-6">
+                Send us a Message
+              </h3>
               <form className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
@@ -37,7 +39,11 @@ const Contact = () => {
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="email">Email</Label>
-                  <Input id="email" type="email" placeholder="john@example.com" />
+                  <Input
+                    id="email"
+                    type="email"
+                    placeholder="john@example.com"
+                  />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="subject">Subject</Label>
@@ -45,7 +51,11 @@ const Contact = () => {
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="message">Message</Label>
-                  <Textarea id="message" placeholder="Tell us how we can help you..." rows={4} />
+                  <Textarea
+                    id="message"
+                    placeholder="Tell us how we can help you..."
+                    rows={4}
+                  />
                 </div>
                 <Button className="w-full bg-brand-brown hover:bg-brand-brown/90 text-white">
                   Send Message
@@ -73,8 +83,13 @@ const Contact = () => {
                   <MapPin className="h-5 w-5 text-brand-brown" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-brand-dark">Visit Our Store</h4>
-                  <p className="text-muted-foreground">123 Fashion Street, Downtown District, NY 10001</p>
+                  <h4 className="font-semibold text-brand-dark">
+                    Visit Our Store
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Plot No-827 1st Floor Shalimar Garden Extension-1 Ghaziabad,
+                    UP
+                  </p>
                 </div>
               </div>
 
@@ -84,7 +99,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-brand-dark">Call Us</h4>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">
+                    +918506922777, +918506944777
+                  </p>
                 </div>
               </div>
 
@@ -94,7 +111,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-brand-dark">Email Us</h4>
-                  <p className="text-muted-foreground">hello@luminabags.com</p>
+                  <p className="text-muted-foreground">
+                    namratauniversal@gmail.com
+                  </p>
                 </div>
               </div>
 
@@ -104,7 +123,11 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-brand-dark">Store Hours</h4>
-                  <p className="text-muted-foreground">Mon-Sat: 10AM-8PM<br />Sunday: 12PM-6PM</p>
+                  <p className="text-muted-foreground">
+                    Mon-Sat: 10AM-8PM
+                    <br />
+                    Sunday: 12PM-6PM
+                  </p>
                 </div>
               </div>
             </div>
