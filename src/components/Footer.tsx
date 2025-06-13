@@ -29,9 +29,7 @@ const Footer = () => {
   return (
     <footer className="bg-brand-dark text-brand-cream">
       <div className="container mx-auto px-4 lg:px-8">
-        {/* Main Footer */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 py-16">
-          {/* Brand Section */}
           <div className="lg:col-span-2 space-y-6">
             <div>
               <h3 className="text-2xl font-serif font-bold mb-4">
@@ -84,7 +82,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Links Sections */}
           <div>
             <h4 className="font-semibold mb-4">Shop</h4>
             <ul className="space-y-3">
