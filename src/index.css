@@ -1,0 +1,109 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
+
+@layer base {
+  :root {
+    --background: 42 35% 97%;
+    --foreground: 28 25% 15%;
+
+    --card: 42 35% 98%;
+    --card-foreground: 28 25% 15%;
+
+    --popover: 42 35% 98%;
+    --popover-foreground: 28 25% 15%;
+
+    --primary: 25 30% 25%;
+    --primary-foreground: 42 35% 97%;
+
+    --secondary: 42 20% 90%;
+    --secondary-foreground: 28 25% 15%;
+
+    --muted: 42 20% 92%;
+    --muted-foreground: 28 15% 45%;
+
+    --accent: 30 40% 88%;
+    --accent-foreground: 28 25% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 42 35% 97%;
+
+    --border: 42 20% 88%;
+    --input: 42 20% 88%;
+    --ring: 25 30% 25%;
+
+    --radius: 0.5rem;
+
+    /* Brand colors */
+    --brand-cream: 42 35% 97%;
+    --brand-beige: 42 20% 88%;
+    --brand-brown: 25 30% 25%;
+    --brand-dark: 28 25% 15%;
+    --brand-accent: 30 40% 88%;
+  }
+
+  .dark {
+    --background: 28 25% 15%;
+    --foreground: 42 35% 97%;
+
+    --card: 28 25% 15%;
+    --card-foreground: 42 35% 97%;
+
+    --popover: 28 25% 15%;
+    --popover-foreground: 42 35% 97%;
+
+    --primary: 42 35% 97%;
+    --primary-foreground: 28 25% 15%;
+
+    --secondary: 28 20% 25%;
+    --secondary-foreground: 42 35% 97%;
+
+    --muted: 28 20% 25%;
+    --muted-foreground: 42 15% 65%;
+
+    --accent: 28 20% 25%;
+    --accent-foreground: 42 35% 97%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 42 35% 97%;
+
+    --border: 28 20% 25%;
+    --input: 28 20% 25%;
+    --ring: 42 35% 97%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+@layer utilities {
+  .text-brand-brown {
+    color: hsl(var(--brand-brown));
+  }
+  
+  .bg-brand-cream {
+    background-color: hsl(var(--brand-cream));
+  }
+  
+  .bg-brand-beige {
+    background-color: hsl(var(--brand-beige));
+  }
+  
+  .bg-brand-brown {
+    background-color: hsl(var(--brand-brown));
+  }
+  
+  .border-brand-beige {
+    border-color: hsl(var(--brand-beige));
+  }
+}
